@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fund Blockchain</title>
+    <script src="./web3/web3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/process2.js"></script>
+</head>
+<body>
+    <h2>Fund</h2>
+    <button id="btn_connect_MM">Connect Metamask</button>
+    <h3 id="account">0x...</h3>
+    <h3 id="install">Please install metamask</h3>
+    
+    <hr/>
+
+    <input id="txt_BNB" type="text" placeholder="BNB" />
+    <input id="txt_Content" type="text" placeholder="Message" />
+    <button id="btn_Deposit">Deposit</button>
+
+    <hr/>
+
+    <h2><span id="total">1.15</span> BNB</h2>
+    <table id="tbMember" width="500px" border="1">
+        <tr>
+            <td>Account</td> <td>BNB</td> <td>Message</td>
+        </tr>
+        
+    </table>
+
+    <hr/>
+    <input type="text" id="txtAddress">
+    <input type="button" id="btnCheck" />
+    <h2 id="txt"></h2>
+</body>
+</html>
